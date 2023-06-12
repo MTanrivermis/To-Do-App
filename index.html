@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-black">
+
+    <header class="container w-50 mt-5">
+        <div class="text-center">
+            <img class="w-50" src="./img/things-to-do.png" alt="">
+        </div>
+    </header>
+
+    <main class="container w-50 ">
+
+        <h3 class="text-white text-center mt-5 fs-1">Happy <span id="day"></span></h3>
+
+        <form id="form-add">
+            <div class="d-flex gap-2 mt-5 mb-5">
+                <input id="input-add" class="form-control p-3" type="text" placeholder="✍️ Add Item.." />
+                <button id="btn-add" type="submit" class="btn btn-primary p-3"><i class="fa-solid fa-circle-check"></i>
+                </button>
+            </div>
+        </form>
+
+
+        <!-- <form id="form-todo"> -->
+
+        <!-- <div class="d-flex gap-2">
+                <input id="gelir-input" class="form-control p-3" type="text" />
+                <button id="ekle-btn" type="submit" class="btn btn-danger p-3"><i class="fa-solid fa-trash-can"></i>
+                </button>
+            </div> -->
+
+        <!-- </form> -->
+
+
+        <section id="taskBody">
+
+
+        </section>
+
+        <footer class="text-center text-white" style="margin-top: 250px;">
+            <p>Made with ❤️ by Midnight</p>
+        </footer>
+
+    </main>
+
+
+
+
+
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
